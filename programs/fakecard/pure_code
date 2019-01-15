@@ -1,0 +1,39 @@
+ClrHome
+For(A,1,13)
+Output(1,A,sub("CurrentYear: ",A,1
+End
+Input "CurrentYear: ",N
+For(A,1,10)
+Output(2,A,sub("CVVlength: ",A,1)
+End
+Input "CVVlength: ",M
+Lbl A
+ClrHome
+For(A,1,6)
+Output(1,A,sub("Number",A,1)
+End
+For(A,1,6)
+Output(4,A,sub("Expire",A,1)
+End
+For(A,1,14)
+Output(5,A,sub("M:          Y:",A,1)
+End
+For(A,1,10)
+Output(7,A,sub("CVV/Verify",A,1)
+End
+For(A,1,26)
+Output(9,A,sub("(C)2019-99  VoxelPrismatic",A,1)
+End
+For(A,1,26)
+Output(10,A,sub("         ~any key to next~",A,1)
+End
+For(A,1,randInt(13,19))
+Output(2,A,randInt(0,9))
+End
+Output(5,3,randInt(1,12))
+Output(5,15,randInt(N,N+3)
+For(A,1,M)
+Output(8,A,randInt(1,9)
+End
+Pause 
+Goto A
